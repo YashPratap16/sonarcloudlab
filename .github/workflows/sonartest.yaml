@@ -22,7 +22,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=yashdemo
+          -Dsonar.organization=insightdemo
           -Dsonar.projectKey=yashdemo_insightdemo
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
